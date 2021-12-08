@@ -3,20 +3,16 @@ import pandas as pd
 import numpy as np
 import requests
 import tweepy
+from bs4 import BeautifulSoup
 import time
+import requests
 
 
 st.image('PFF_Logo_WP.png')
 
 
-
-#-25.953724, and the longitude is 32.588711
-
-
-
-
-options = st.sidebar.selectbox("Which Dashboard: ",("stocktwits","Wealth distribution in Maputo", "crypto", "wallstreetbets",
-                                                    "chart", "pattern", 
+options = st.sidebar.selectbox("Which Dashboard: ",("stocktwits" , "Stock Chart","Wealth distribution in Maputo", "Forex", 
+                                                    "crypto", "wallstreetbets","chart", "pattern", 
                                                     ))
 
 st.header(options)
@@ -40,9 +36,15 @@ if options == "Wealth distribution in Maputo":
     map_data = pd.DataFrame(
     np.random.randn(1000, 2) / [50, 50] + [-25.953724, 32.588711],
     columns=['lat', 'lon'])
-
     st.map(map_data)
 
+
+
+if options == "Stock Chart":
+    schart = st.sidebar.text_input('Stock Symbol', 'AAPL', max_chars = 5)
+    #furl = requests.get(f'https://finviz.com/chart.ashx?t=AAPL{fxchart}')
+    img = (f'https://finviz.com/chart.ashx?t=AAPL{schart}')
+    st.image(img)
 
 
 if options == "crypto":
@@ -54,3 +56,7 @@ if options == "crypto":
 if options == "chart":
     st.subheader("This is the chart dashboard")
     
+    
+        
+        
+
