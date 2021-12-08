@@ -8,6 +8,6 @@ Python libraries used to develop this aplication:
     Streamlit
     Plotly
     Yfinance
-    BeautifulSoup
+    BeautifulSoup4
     requests
     time
