@@ -42,7 +42,7 @@ if options == "Wealth distribution in Maputo":
 if options == "Stock Chart":
     schart = st.sidebar.text_input('Stock Symbol', 'AAPL', max_chars = 5)
     #furl = requests.get(f'https://finviz.com/chart.ashx?t=AAPL{fxchart}')
-    img = (f'https://finviz.com/chart.ashx?t=AAPL{schart}')
+    img = (f'https://finviz.com/chart.ashx?t={schart}')
     st.image(img)
 
 
