@@ -4,11 +4,6 @@ import numpy as np
 import requests
 import tweepy
 
-#st.sidebar.title("Opions")
-#
-#df = pd.DataFrame(np.random.randn(50,20), columns = ('col %d' % i for i in range(20)))
-#st.write(df)
-#
 #st.image('/home/mr-g3tl3m4n/CandleStickPlot.png')
 
 options = st.sidebar.selectbox("Which Dashboard: ",( "twitter", "wallstreetbets",
@@ -25,8 +20,6 @@ if options == "crypto":
 	#st.subheader("crypto assets logic")
 	crypto = st.sidebar.text_input('Crypto Symbol', 'Bitcoin', max_chars = 15)
    # scryptourl =     
-
-
 
 
 if options == "twitter":
