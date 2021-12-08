@@ -5,7 +5,6 @@ import requests
 import tweepy
 from bs4 import BeautifulSoup
 import time
-import requests
 
 
 st.image('PFF_Logo_WP.png')
