@@ -16,16 +16,27 @@ options = st.sidebar.selectbox("Which Dashboard: ",( "twitter", "wallstreetbets"
 
 st.header(options)
 
+if options == "stocktwits":
+    Symbol = st.sidebar.text_input('Symbol', 'AAPL', max_chars = 5)
+    r = requests.get(f'https://api.stocktwits.com/api/2/streams/symbol/{Symbol}.json')
+    data = r.json()
+    
+if options == "crypto":
+	#st.subheader("crypto assets logic")
+	crypto = st.sidebar.text_input('Crypto Symbol', 'Bitcoin', max_chars = 15)
+   # scryptourl =     
+
+
+
+
 if options == "twitter":
     st.subheader("twitter dashboard logic")
 
 if options == "chart":
     st.subheader("This is the chart dashboard")
 
-if options == "stocktwits":
-    Symbol = st.sidebar.text_input('Symbol', 'AAPL', max_chars = 5)
-    r = requests.get(f'https://api.stocktwits.com/api/2/streams/symbol/{Symbol}.json')
-    data = r.json()
+
+
     
     for message in data['messages']:
         #st.write(message)
