@@ -7,7 +7,7 @@ import tweepy
 import time
 
 
-st.image('PFF_Logo_WP.png')
+st.image('banner.jpg')
 
 
 
