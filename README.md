@@ -11,3 +11,10 @@ Python libraries used to develop this aplication:
     BeautifulSoup4
     requests
     time
+    
+To do:
+    Sentiment Analysis
+    Improve Layout
+    Use the Raddit API to get the Wallstreetbets data
+
+
