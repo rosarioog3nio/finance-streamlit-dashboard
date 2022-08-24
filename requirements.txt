@@ -1,6 +1,6 @@
 streamlit 1.11.1
 plotly
-psycopg2
+psycopg2 
 requests
 tweepy
 numpy
