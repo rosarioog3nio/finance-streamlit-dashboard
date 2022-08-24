@@ -17,52 +17,6 @@ st.text("Click on the sidebar menu to access some of the functionalities of our 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#st.header(options)
-#
-#if options == "":
-#
-#
-#if options == "Wealth distribution in Maputo":
-#    map_data = pd.DataFrame(
-#    np.random.randn(1000, 2) / [50, 50] + [-25.953724, 32.588711],
-#    columns=['lat', 'lon'])
-#
-#    st.map(map_data)
-#
-#
-#
-#if options == "crypto":
-#	#st.subheader("crypto assets logic")
-#	crypto = st.sidebar.text_input('Crypto Symbol', 'Bitcoin', max_chars = 15)
-#   # scryptourl = 
-#    
-#
-#if options == "chart":
-#    st.subheader("This is the chart dashboard")
-#    
-#
-
-
 # Removing default footer
 hide_st_style = """
                 <style>
