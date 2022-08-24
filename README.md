@@ -13,8 +13,10 @@ Python libraries used to develop this aplication:
     time
     
 To do:
-    Sentiment Analysis
-    Improve Layout
-    Use the Raddit API to get the Wallstreetbets data
+    Finish Sentiment Analysis work;
+    Improve Layout;
+    Use the Raddit API to get the Wallstreetbets data;
+    Finish the Crypto functionalities;
+    Solve the pages issues on heruko.
 
 
