@@ -18,6 +18,5 @@ To do:
     Improve Layout;
     Use the Raddit API to get the Wallstreetbets data;
     Finish the Crypto functionalities;
-    Solve the pages issues on heruko.
 
 
