@@ -5,7 +5,7 @@ st.set_page_config(
     page_title = "Finance Analysis Dashboard",
     page_icon = "👋",
 )
-
+ 
 st.image('banner.jpg')
 
 st.title("Welcome to our Finance App")
