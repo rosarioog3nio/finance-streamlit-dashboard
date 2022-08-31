@@ -6,7 +6,7 @@ Python libraries used to develop this aplication:
 
     Pandas
     Streamlit
-    Plotly
+    Plotly 
     Yfinance
     BeautifulSoup4
     requests
