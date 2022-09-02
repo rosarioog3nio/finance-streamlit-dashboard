@@ -9,7 +9,7 @@ Python libraries used to develop this aplication:
     Plotly 
     Yfinance
     BeautifulSoup4
-    requests
+    requests 
     time
     
 To do:
