@@ -9,7 +9,7 @@ st.set_page_config(
 st.image('banner.jpg')
 
 st.title("Welcome to our Finance App")
-
+     
 #st.sidebar.success("Select a page above.")
 
 st.text("This a simple financila analysis web application built to help you with your \nFundamental Analysis on specific asset.")
