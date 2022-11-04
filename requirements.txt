@@ -4,3 +4,4 @@ psycopg2
 requests
 tweepy    
 numpy
+pip==22.3
