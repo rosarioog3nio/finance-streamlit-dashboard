@@ -1,6 +1,4 @@
-streamlit==1.11.1
-plotly
-psycopg2 
+streamlit==1.11.1 
 requests
 tweepy    
 numpy
