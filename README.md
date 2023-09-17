@@ -4,7 +4,7 @@ This is a simple streamlit dashboard focus on displaying financial data and info
 
 Python libraries used to develop this aplication:
 
-    Pandas
+    Pandas   
     Streamlit
     Plotly 
     Yfinance
